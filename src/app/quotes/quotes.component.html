@@ -4,7 +4,7 @@
             <li *ngFor="let y of quotes;let m = index">
                 <!-- {{y.name}} -->
                 {{y.quote}}
-                <button (click)="show(m)">show-details</button><br>
+                <button (click)="show(m)">show-details</button><br><br><br>
                 <app-quotes-details 
                 *ngIf="y.show"
                 [quotes]="y"

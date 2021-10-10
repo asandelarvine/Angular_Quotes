@@ -3,13 +3,15 @@
         <h3 class="white-text">Add Quote</h3>
         <hr class="hr-light">
     </div>
+    <div class="input">
 
-    <label for="name">Publisher</label>
-   <input type="text" id="publisher" name="publisher" #publisher="ngModel" [(ngModel)] ="anotherQuote.name"> <br>
-   <label for="Author">Author</label>
-   <input type="text" id="author" name="author" #author="ngModel" [(ngModel)] = "anotherQuote.author"><br>
-   <label for="Quote">Quote</label>
-   <input type="text" id="quote" name="quote" #quote="ngModel" [(ngModel)] = "anotherQuote.quote"><br>
-   <button>submit</button>
+        <label for="name">Publisher</label>
+        <input type="text" id="publisher" name="publisher" #publisher="ngModel" [(ngModel)] ="anotherQuote.name"> <br>
+        <label for="Author">Author</label>
+        <input type="text" id="author" name="author" #author="ngModel" [(ngModel)] = "anotherQuote.author"><br>
+        <label for="Quote">Quote</label>
+        <input type="text" id="quote" name="quote" #quote="ngModel" [(ngModel)] = "anotherQuote.quote"><br>
+        <button>submit</button>
+   </div>
 
 </form>
