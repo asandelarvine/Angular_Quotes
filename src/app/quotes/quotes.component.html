@@ -4,11 +4,11 @@
             <li *ngFor="let y of quotes;let m = index">
                 <!-- {{y.name}} -->
                 {{y.quote}}
-                <button (click)="show(m)">show-details</button><br><br><br>
+                <button (click)="show(m)">show-details</button><br><br>
                 <app-quotes-details 
                 *ngIf="y.show"
                 [quotes]="y"
-                (value1)="DeleteFunction($event,m)"
+                (value1)="DeleteFunction($event,m)" 
                 
                 ></app-quotes-details>
 
@@ -16,6 +16,7 @@
 
         </ol>
 </div>
+<br>
 <br>
     <div id="quotes1">
         <app-quotes-form (emitQuote)="submitQuote($event)"></app-quotes-form>

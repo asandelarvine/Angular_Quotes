@@ -1,6 +1,6 @@
 <form class="form" id="form" #form='ngForm' (ngSubmit)="submitQuote()">
     <div class="text-center">
-        <h3 class="white-text" style="color: crimson; text-align: center;">Add Quote</h3>
+        <h3 class="white-text" style="color: greenyellow; text-align: center;">Add Quote</h3>
         
         
     </div>
@@ -18,7 +18,7 @@
             Quote
         </label><br>
         <input type="text"  id="quote" name="quote" size="60" #quote="ngModel" [(ngModel)] = "anotherQuote.quote"><br>
-        <button>submit</button>
+        <button class="btn">submit</button>
    </div>
 
 </form>
