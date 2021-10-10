@@ -1,5 +1,10 @@
 .label{
     text-align: center;
     color: crimson;
+    font-size: larger;
+}
+input{
+    line-height: 2em;
+    font-size: large;
 
 }
