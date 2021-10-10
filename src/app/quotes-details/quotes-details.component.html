@@ -1,6 +1,7 @@
-{{quotes.name}}
-{{quotes.author}}
-{{quotes.quote}}
+<div class="quotes-details">
+{{quotes.name}} <br>
+{{quotes.author}} <br>
+{{quotes.quote}} <br>
 
 
 
@@ -8,3 +9,4 @@
 <button (click)="DeleteFunction(true)">delete-quote</button>
 <button (click)="UpVoteFunction()">upvote{{quotes.upvote}}</button>
 <button (click)="DownVoteFunction()">downvote{{quotes.downvote}}</button>
+</div>
