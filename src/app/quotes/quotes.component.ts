@@ -14,6 +14,12 @@ export class QuotesComponent implements OnInit {
   show(index:any){
     this.quotes[index].show = !this.quotes[index].show;
   }
+  DeleteFunction(value1:any,index:any){
+    if(value1){
+      this.quotes.splice(index,1);
+    }
+
+  }
 
   constructor() { }
 

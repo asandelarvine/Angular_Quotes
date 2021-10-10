@@ -5,6 +5,7 @@
         <app-quotes-details 
         *ngIf="y.show"
         [quotes]="y"
+        (value1)="DeleteFunction($event,m)"
         
         ></app-quotes-details>
 
