@@ -8,8 +8,8 @@ import { Quotes } from '../quotes';
 })
 export class QuotesComponent implements OnInit {
   quotes:Quotes[]=[
-    new Quotes("Larvine","Burt Rutan","Testing leads to failure, and failure leads to understanding"),
-    new Quotes("Larvine","Burt Rutan","Testing leads to failure, and failure leads to understanding"),
+    new Quotes("Larvine","Burt Rutan","Testing leads to failure, and failure leads to understanding",0,0),
+    new Quotes("Larvine","Burt Rutan","Testing leads to failure, and failure leads to understanding",0,0),
   ];
   show(index:any){
     this.quotes[index].show = !this.quotes[index].show;
@@ -18,6 +18,7 @@ export class QuotesComponent implements OnInit {
     if(value1){
       this.quotes.splice(index,1);
     }
+
 
   }
 

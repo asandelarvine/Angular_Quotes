@@ -14,6 +14,12 @@ export class QuotesDetailsComponent implements OnInit {
   DeleteFunction(value:boolean){
     this.value1.emit(value);
   }
+  UpVoteFunction(){
+    this.quotes.upvote++;
+  }
+  DownVoteFunction(){
+    this.quotes.downvote++;
+  }
 
   constructor() { }
 

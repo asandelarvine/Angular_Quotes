@@ -2,4 +2,7 @@
 {{quotes.author}}
 {{quotes.quote}}
 
+
 <button (click)="DeleteFunction(true)">delete-quote</button>
+<button (click)="UpVoteFunction()">upvote{{quotes.upvote}}</button>
+<button (click)="DownVoteFunction()">downvote{{quotes.downvote}}</button>
