@@ -1,16 +1,22 @@
 <form class="form" id="form" #form='ngForm' (ngSubmit)="submitQuote()">
     <div class="text-center">
-        <h3 class="white-text">Add Quote</h3>
+        <h3 class="white-text" style="color: crimson; text-align: center;">Add Quote</h3>
         <hr class="hr-light">
     </div>
-    <div class="input">
+    <div class="label">
 
-        <label for="name">Publisher</label>
-        <input type="text" id="publisher" name="publisher" #publisher="ngModel" [(ngModel)] ="anotherQuote.name"> <br>
-        <label for="Author">Author</label>
-        <input type="text" id="author" name="author" #author="ngModel" [(ngModel)] = "anotherQuote.author"><br>
-        <label for="Quote">Quote</label>
-        <input type="text" id="quote" name="quote" #quote="ngModel" [(ngModel)] = "anotherQuote.quote"><br>
+        <label for="name">
+            Publisher
+        </label><br>
+        <input type="text" id="publisher" name="publisher" size="25"  #publisher="ngModel" [(ngModel)] ="anotherQuote.name"> <br>
+        <label for="Author">
+            Author
+        </label><br>
+        <input type="text" id="author" name="author" size="25" #author="ngModel" [(ngModel)] = "anotherQuote.author"><br>
+        <label for="Quote">
+            Quote
+        </label><br>
+        <input type="text"  id="quote" name="quote" size="80" #quote="ngModel" [(ngModel)] = "anotherQuote.quote"><br>
         <button>submit</button>
    </div>
 

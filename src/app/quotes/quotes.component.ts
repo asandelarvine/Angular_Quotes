@@ -9,7 +9,7 @@ import { Quotes } from '../quotes';
 export class QuotesComponent implements OnInit {
   quotes:Quotes[]=[
     new Quotes("Larvine","Burt Rutan","Testing leads to failure, and failure leads to understanding",0,0),
-    new Quotes("Larvine","Chris Pine","Programming is not about what you know; it is about you can figure out",0,0),
+    new Quotes("Larvine","Chris Pine","Programming is not about what you know; it is about what you can figure out",0,0),
     new Quotes("Larvine","Dennis Ritchie","The only way to learn programming language is by writing programs in it",0,0),
     new Quotes("Larvine","Unknown","When I wrote this Code, only God and I understood what I did.Now only God knows ",0,0),
     new Quotes("Larvine","Unknown","Copy-and-Paste was programmed by programmers for programmers actually",0,0),
