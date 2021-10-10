@@ -21,6 +21,10 @@ export class QuotesComponent implements OnInit {
 
 
   }
+  submitQuote(anotherQuote){
+    this.quotes.push(anotherQuote);
+
+  }
 
   constructor() { }
 

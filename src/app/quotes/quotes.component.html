@@ -1,14 +1,21 @@
-<ol>
-    <li *ngFor="let y of quotes;let m = index">
-        {{y.name}}
-        <button (click)="show(m)">show-details</button>
-        <app-quotes-details 
-        *ngIf="y.show"
-        [quotes]="y"
-        (value1)="DeleteFunction($event,m)"
-        
-        ></app-quotes-details>
+<div id="content">
+    <div id="quotes">
+        <ol>
+            <li *ngFor="let y of quotes;let m = index">
+                {{y.name}}
+                <button (click)="show(m)">show-details</button>
+                <app-quotes-details 
+                *ngIf="y.show"
+                [quotes]="y"
+                (value1)="DeleteFunction($event,m)"
+                
+                ></app-quotes-details>
 
-    </li>
+            </li>
 
-</ol>
+        </ol>
+</div>
+    <div id="quotes2">
+        <app-quotes-form (emitQuote)="submitQuote($event)"></app-quotes-form>
+    </div>
+</div>

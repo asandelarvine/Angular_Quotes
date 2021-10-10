@@ -1,0 +1,13 @@
+#content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+#quotes1{
+    width: 50%;
+
+}
+#quotes2{
+    width: 50%;
+}
