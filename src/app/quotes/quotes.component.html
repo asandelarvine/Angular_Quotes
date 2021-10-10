@@ -1,8 +1,12 @@
 <ol>
-    <li *ngFor="let y of quotes">
+    <li *ngFor="let y of quotes;let m = index">
         {{y.name}}
-        <button>show details</button>
-        <app-quotes-details></app-quotes-details>
+        <button (click)="show(m)">show-details</button>
+        <app-quotes-details 
+        *ngIf="y.show"
+        [quotes]="y"
+        
+        ></app-quotes-details>
 
     </li>
 

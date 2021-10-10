@@ -9,8 +9,11 @@ import { Quotes } from '../quotes';
 export class QuotesComponent implements OnInit {
   quotes:Quotes[]=[
     new Quotes("Larvine","Burt Rutan","Testing leads to failure, and failure leads to understanding"),
-    new Quotes("Larvine","Burt Rutan","Testing leads to failure, and failure leads to understanding")
+    new Quotes("Larvine","Burt Rutan","Testing leads to failure, and failure leads to understanding"),
   ];
+  show(index:any){
+    this.quotes[index].show = !this.quotes[index].show;
+  }
 
   constructor() { }
 
