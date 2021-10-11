@@ -3,7 +3,7 @@
         <ol>
             <li *ngFor="let y of quotes;let m = index">
                 <!-- {{y.name}} -->
-                {{y.quote}}
+                {{y.quote}} by {{y.author}}
                 <button (click)="show(m)">show-details</button><br><br>
                 <app-quotes-details 
                 *ngIf="y.show"

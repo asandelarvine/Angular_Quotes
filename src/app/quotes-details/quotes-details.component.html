@@ -1,11 +1,13 @@
 <div class="quotes-details">
 {{quotes.name}} <br>
-{{quotes.author}} <br>
-{{quotes.quote}} <br>
+<!-- {{quotes.author}} <br> -->
+<!-- {{quotes.quote}} <br> -->
 
 
 
-
+<p>
+    {{quotes.date|dateCounter}} days since submission
+</p>
 <button (click)="DeleteFunction(true)" style="color:red;">delete-quote</button>
 <button (click)="UpVoteFunction()" style="color: rgb(0, 81, 255);">upvote{{quotes.upvote}}</button>
 <button (click)="DownVoteFunction()" style="color: rgb(220, 20, 47);">downvote{{quotes.downvote}}</button>
