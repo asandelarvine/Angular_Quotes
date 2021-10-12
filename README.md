@@ -2,11 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
 
-##Description:
+## Description:
 
 It is Quotes App that allows one to add quotes,upvote and downvote the quote, He or she is able to delete the quote too.
 
-### Check out the website:
+## Check out the website:
 
 [https://asandelarvine.github.io/Angular_Quotes/]
 
@@ -16,14 +16,14 @@ It is Quotes App that allows one to add quotes,upvote and downvote the quote, He
 Asande Larvine
 
 
-##Technologies used:
+## Technologies used:
 
 HTML
 CSS
 TYPESCRIPT
 BOOTSTRAP
 
-##SUPPORT AND CONTACT DETAILS:
+## SUPPORT AND CONTACT DETAILS:
 
 If you have any issues, questions, ideas or concerns, feel free to contact. {Email: asandelarvine@gmail.com}
 
@@ -52,7 +52,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-##Support and Contact Details:
+## Support and Contact Details:
 
 If you have any issues, questions, ideas or concerns, feel free to contact. {Email: asandelarvine@gmail.com}
 
