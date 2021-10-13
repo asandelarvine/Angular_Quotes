@@ -19,9 +19,15 @@ Asande Larvine
 ## Technologies used:
 
 HTML
+
 CSS
+
 TYPESCRIPT
+
+JAVASCRIPT
+
 BOOTSTRAP
+
 
 ## SUPPORT AND CONTACT DETAILS:
 
